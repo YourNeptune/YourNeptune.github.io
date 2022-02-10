@@ -10,15 +10,29 @@
 
 .mySidebarContainer {
   background-color: rgba(255, 255, 255, 0.5);
+  position: relative;
 }
 
 .myBlogBodyContainer {
   overflow: auto;
   background-color: rgb(255, 219, 219);
+  
+}
+
+.Avatar {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.Footer{
+
 }
 
 @media screen and (max-width: 450px) {
   .myBodyContainer {
     flex-direction: column;
+  }
+  .mySidebarContainer {
+    height: 50rem;
   }
 }
