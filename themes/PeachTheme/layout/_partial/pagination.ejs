@@ -1,0 +1,10 @@
+<!-- Pagination -->
+<% if(page.total > 1) { %>
+<div class="text-center">
+  <%- paginator({ 
+      prev_text: '<i class="fal fa-arrow-square-left"></i>', 
+      next_text: '<i class="fal fa-arrow-square-left"></i>', 
+      escape: false }) %>
+</div>
+<% } %>
+

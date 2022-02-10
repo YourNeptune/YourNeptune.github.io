@@ -1,7 +1,13 @@
 ---
 title: blog15
 date: 2022-01-27 20:52:17
+categories:
+- Sports
+- Baseball
 tags:
+- Injury
+- Fight
+- Shocking
 ---
 
 This part is the excerpt, get it with the <%- post.excerpt %>

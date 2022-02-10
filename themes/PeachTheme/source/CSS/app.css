@@ -1,3 +1,7 @@
+:root {
+  --footer-font-size: 0.8rem;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -16,7 +20,6 @@
 .myBlogBodyContainer {
   overflow: auto;
   background-color: rgb(255, 219, 219);
-  
 }
 
 .Avatar {
@@ -24,8 +27,16 @@
   border-radius: 50%;
 }
 
-.Footer{
+.Footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
 
+.Footer p {
+  font-size: var(--footer-font-size);
 }
 
 @media screen and (max-width: 450px) {
@@ -33,6 +44,6 @@
     flex-direction: column;
   }
   .mySidebarContainer {
-    height: 50rem;
+    height: 20rem;
   }
 }

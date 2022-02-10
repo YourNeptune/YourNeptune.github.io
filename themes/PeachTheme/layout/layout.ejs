@@ -4,11 +4,13 @@
   <%- partial("_partial/head") %>
   <body>
     <div class="myBodyContainer">
-      <div class="mySidebarContainer col-md-3 p-0">
+      <section class="mySidebarContainer col-md-3 p-0">
         <!--Sidebar content-->
         <%- partial('_partial/sidebar') %>
-      </div>
-      <div class="myBlogBodyContainer col-md-9 px-5 pt-5"><%- body %></div>
+      </section>
+      <section class="myBlogBodyContainer col-md-9 px-5 pt-5">
+        <%- body %>
+      </section>
     </div>
   </body>
 </html>
