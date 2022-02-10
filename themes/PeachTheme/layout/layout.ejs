@@ -1,0 +1,14 @@
+<!-- The highest layer -->
+<!DOCTYPE html>
+<html lang="<%= config.language %>">
+  <%- partial("_partial/head") %>
+  <body>
+    <div class="myBodyContainer">
+      <div class="mySidebarContainer col-md-3 p-0">
+        <!--Sidebar content-->
+        <%- partial('_partial/sidebar') %>
+      </div>
+      <div class="myBlogBodyContainer col-md-9 p-5"><%- body %></div>
+    </div>
+  </body>
+</html>
